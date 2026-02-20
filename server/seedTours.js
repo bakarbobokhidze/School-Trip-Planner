@@ -40,7 +40,7 @@ const tourData = [
   }
 ];
 
-mongoose.connect("mongodb+srv://VipeX:baqari123BB@cluster0.oidmij5.mongodb.net/?appName=Cluster0")
+mongoose.connect("")
   .then(async () => {
     console.log("Connected to MongoDB for seeding...");
     
